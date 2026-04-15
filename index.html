@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhai Assignment hum kr denge</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #2563eb, #9333ea);
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #334155;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    .whatsapp-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 40px;
+      padding: 15px 25px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+
+    .whatsapp-icon {
+      width: 22px;
+      height: 22px;
+      fill: white;
+    }
+
+    /* Floating WhatsApp Button */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      z-index: 1000;
+      transition: 0.3s;
+    }
+
+    .floating-whatsapp:hover {
+      transform: scale(1.1);
+      background: #1ebe5d;
+    }
+
+    .floating-whatsapp svg {
+      width: 30px;
+      height: 30px;
+      fill: white;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      text-align: center;
+      background: #020617;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bhai Assignment hum kar denge😎</h1>
+  <p>aap bss maze karo 📚</p>
+</header>
+
+<div class="container">
+  <h2>Hum Kya Offer Karte Hain 💼</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>Assignments</h3>
+      <p>Bhai likhne ka time nahi? Hum likh denge 😌</p>
+    </div>
+
+    <div class="card">
+      <h3>Projects</h3>
+      <p>Full project ready — bas submit karo aur chill karo 😎</p>
+    </div>
+
+    <div class="card">
+      <h3>Files</h3>
+      <p>Practical file ka tension khatam!</p>
+    </div>
+
+    <div class="card">
+      <h3>Printing</h3>
+      <p>Sasti aur fast printing — bina line ke 🖨️</p>
+    </div>
+
+  </div>
+
+  <!-- Main WhatsApp Button -->
+  <a class="whatsapp-btn" href="https://wa.me/91XXXXXXXXXX?text=Bhai%20mujhe%20assignment%20karwana%20hai" target="_blank">
+    
+    <svg class="whatsapp-icon" viewBox="0 0 32 32">
+      <path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.9 5 2.3 7L4 29l7.3-2.2c1.9 1 4.1 1.6 6.3 1.6 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.4l-.4-.2-4.3 1.3 1.4-4.1-.3-.4c-1.2-1.7-1.8-3.7-1.8-5.8 0-5.6 4.6-10.1 10.2-10.1s10.2 4.5 10.2 10.1-4.6 10.1-10.2 10.1zm5.6-7.6c-.3-.2-1.7-.8-2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.7-1.7-2s0-.5.2-.7c.2-.2.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6s-.7-1.7-1-2.3c-.3-.7-.6-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3s1.3 3.5 1.5 3.7c.2.2 2.6 4 6.3 5.4.9.4 1.6.6 2.1.7.9.3 1.8.2 2.5.1.8-.1 2.3-1 2.6-2 .3-1 .3-1.8.2-2-.1-.2-.3-.3-.6-.5z"/>
+    </svg>
+
+    Bhai Kaam Karwana Hai
+  </a>
+
+</div>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918506843882?text=Bhai%20jaldi%20kaam%20hai" 
+   class="floating-whatsapp" target="_blank">
+
+   <svg viewBox="0 0 32 32">
+      <path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.9 5 2.3 7L4 29l7.3-2.2c1.9 1 4.1 1.6 6.3 1.6 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.4l-.4-.2-4.3 1.3 1.4-4.1-.3-.4c-1.2-1.7-1.8-3.7-1.8-5.8 0-5.6 4.6-10.1 10.2-10.1s10.2 4.5 10.2 10.1-4.6 10.1-10.2 10.1zm5.6-7.6c-.3-.2-1.7-.8-2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.7-1.7-2s0-.5.2-.7c.2-.2.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6s-.7-1.7-1-2.3c-.3-.7-.6-.6-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3s1.3 3.5 1.5 3.7c.2.2 2.6 4 6.3 5.4.9.4 1.6.6 2.1.7.9.3 1.8.2 2.5.1.8-.1 2.3-1 2.6-2 .3-1 .3-1.8.2-2-.1-.2-.3-.3-.6-.5z"/>
+   </svg>
+</a>
+
+<footer>
+  <p>© 2026 Bhai Assignment Services | Sab kaam set hai 💯</p>
+</footer>
+
+</body>
+</html>
